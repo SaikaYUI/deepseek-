@@ -80,7 +80,7 @@ app.post('/wechat', async (req, res) => {
 });
 
 // 启动服务
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => {
   console.log(`服务已启动，监听端口 ${PORT}`);
 });
